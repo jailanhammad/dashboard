@@ -6,6 +6,8 @@ import Header from '../Components/Header';
 import Dashboard from '../Components/Dashboard';
 import Insights from '../Components/Insights';
 
+import ProjectManagement from '../Pages/ProjectManagement';
+
 import down from '../Assets/downn.svg';
 import per from '../Assets/performance.svg';
 import task from '../Assets/tasks.svg';
@@ -34,6 +36,9 @@ const Home = () => {
          <Insights new="SALES" dot={dot} green="$103,430" gray="+5% than last month" classColor="gray" />
 
          </section>
+
+         <ProjectManagement />
+
 
         </article>
       

@@ -8,6 +8,7 @@ import manage from '../Assets/manage.svg';
 import categories from '../Assets/categories.svg';
 import settings from '../Assets/setting.svg';
 import logout from '../Assets/logout.svg';
+import { Link } from 'react-router-dom';
 
 
 
@@ -51,8 +52,12 @@ const Nav = () => {
 
                 <div className='dashboard-div'>
 
+
                 <img src={manage} className='icon' />
-                <h1 className='text'>Project Management</h1>
+
+                <Link class="text" to="/ProjectManagement">
+                Project Management
+                </Link>
 
                 </div>
 
