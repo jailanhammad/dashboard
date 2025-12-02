@@ -20,8 +20,8 @@ const RoutingApp = () => {
 
 <Routes>
 
-<Route path='/' element={<Home />} />
-<Route path='/Project-management' element={<ProjectManagement />} />
+<Route path='/Home' element={<Home />} />
+<Route path='/Projectmanagement' element={<ProjectManagement />} />
 
 
 </Routes>

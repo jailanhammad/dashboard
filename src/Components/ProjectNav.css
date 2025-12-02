@@ -44,7 +44,6 @@
     align-items: center;
     align-content: flex-start;
     gap: 10px;
-    margin-left: 20px;
     background-color: white;    
     width: 153px;
     height: 30px;
@@ -53,14 +52,19 @@
 .d-icon{
     width: 18px;
     height: 18px;
-    margin-left: 10px;
 }
+
 .icon{
     width: 18px;
     height: 18px;
 }
+.file{
+    width: 18px;
+    height: 18px;
+    margin-left: 10px;
+}
 .text-black{
-    font-size: 12px;
+    font-size: 10px;
     font-weight: bold;
     color: rgb(0, 0, 0);
     font-family: poppins;
@@ -74,7 +78,16 @@
     align-items: center;
     align-content: center;
     gap: 10px;
-    margin-left: 30px;
+
+}
+.dashboard-div-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+    width: 140px;
 
 }
 .text{
@@ -155,4 +168,3 @@
   .burger.active span:nth-child(3) {
     transform: translateY(-9px) rotate(-45deg);
   }
-  

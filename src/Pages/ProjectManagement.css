@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;  
+    overflow-x: hidden;
+}
+.navv{
+    display: flex;
+}
+.container-2{
+    width: 100%;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 1040px;
+
+}
+.insights-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 60px;
+}
+
+
+.big-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 620px;
+    height: 620px;
+    background-color: #E7E7E7;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.all-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    width: 600px;
+    height: 25px;
+    background-color: white;
+    border-radius: 5px;
+    gap: 10px;
+}
+.head{
+    font-size: 10px;
+    font-weight: 600;
+    color: black;
+    font-family: poppins;
+}
+.filters{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 60px;
+    margin-left: 10px;
+}
+.filters-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+    margin-right: 10px;
+}
+.filter{
+    width: 12px;
+    height: 12px;
+}
+.add-div{
+    width: 600px;
+    height: 25px;
+    background-color: #933C58;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.add-text{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    font-family: poppins;
+}
+.add{
+    width: 20px;
+    height: 20px;
+}

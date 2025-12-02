@@ -37,7 +37,9 @@ const Nav = () => {
                 <div className='dashboard-div-white'>
 
                 <img src={dashboardicon} className='d-icon' />
-                <h1 className='text-black'>Dashboard</h1>
+                <Link class="text-black" to="/Home">
+                Dashboard
+                </Link>
 
                 </div>
 

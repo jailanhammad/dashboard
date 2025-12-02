@@ -6,7 +6,6 @@ import Header from '../Components/Header';
 import Dashboard from '../Components/Dashboard';
 import Insights from '../Components/Insights';
 
-import ProjectManagement from '../Pages/ProjectManagement';
 
 import down from '../Assets/downn.svg';
 import per from '../Assets/performance.svg';
@@ -37,7 +36,6 @@ const Home = () => {
 
          </section>
 
-         <ProjectManagement />
 
 
         </article>
