@@ -20,7 +20,7 @@ const Dashboard = (props) => {
 <div className='coloumns'>
 
 <p className='green'>{props.green}</p>
-<p className='red'>{props.red}</p>
+<p className={props.classColor}>{props.red} {props.gray}</p>
 
 </div>
 

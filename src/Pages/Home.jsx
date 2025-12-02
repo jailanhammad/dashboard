@@ -30,8 +30,8 @@ const Home = () => {
 
          <section className='insights-row'>
 
-         <Insights new="NEW CLIENTS" dot={dot} green="+3,462" red="-722" />
-         <Insights new="CURRENT SALES" dot={dot} green="$103,430" red="+5% than last month" />
+         <Insights new="NEW CLIENTS" dot={dot} green="+3,462" red="-722" classColor="red" />
+         <Insights new="SALES" dot={dot} green="$103,430" gray="+5% than last month" classColor="gray" />
 
          </section>
 

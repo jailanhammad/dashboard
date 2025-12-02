@@ -24,6 +24,7 @@
     color: rgb(0, 0, 0);
     font-family: poppins;
     margin-left: 20px;
+    width: 105px;
 
 }
 .dotts{
@@ -49,5 +50,11 @@
     font-size: 15px;
     font-weight: 400;
     color: #FF0000;
+    font-family: poppins;
+}
+.gray{
+    font-size: 15px;
+    font-weight: 400;
+    color: #969696;
     font-family: poppins;
 }
