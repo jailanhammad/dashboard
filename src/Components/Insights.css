@@ -1,0 +1,53 @@
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    background-color: rgb(243, 243, 243);
+    width: 270px;
+    height: 150px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.rows{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 100px;
+}
+.new-text{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    font-family: poppins;
+    margin-left: 20px;
+
+}
+.dotts{
+    width: 20px;
+    height: 20px;
+    
+}
+.coloumns{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    margin-left: 20px;
+}
+.green{
+    font-size: 15px;
+    font-weight: 400;
+    color: #00D238;
+    font-family: poppins;
+}
+.red{
+    font-size: 15px;
+    font-weight: 400;
+    color: #FF0000;
+    font-family: poppins;
+}

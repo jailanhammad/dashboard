@@ -1,3 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;  
+    overflow-x: hidden;
+}
 .navv{
     display: flex;
+}
+.container{
+    width: 100%;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 1220px;
+}
+.insights-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 60px;
 }

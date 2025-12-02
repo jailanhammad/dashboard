@@ -1,0 +1,53 @@
+.article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 600px;
+    height: 420px;
+    background-color: rgb(243, 243, 243);
+    border-radius: 20px;
+    margin-top: 10px;
+    gap: 50px;
+
+}
+.row-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 340px;
+}
+.text-2{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    font-family: poppins;
+}
+.style{
+    width: 90px;
+    height: 30px;
+    background-color: #d65b8475;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.week{
+    font-size: 10px;
+    font-weight: 400;
+    color: #933C58;
+    font-family: poppins;
+}
+.down{
+    width: 16px;
+    height: 16px;
+}
+.per{
+    width: 540px;
+    height: 300px;
+}
