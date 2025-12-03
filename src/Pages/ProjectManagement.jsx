@@ -3,6 +3,8 @@ import './ProjectManagement.css';
 
 import ProjectNav from '../Components/ProjectNav';
 import ProjectHeader from '../Components/ProjectHeader';
+import Seo from '../Components/Seo';
+
 import Form from '../Components/Form';
 import filters from '../Assets/filters.svg';
 import Container from '../Components/Container';
@@ -72,11 +74,10 @@ const ProjectManagement = () => {
 
         </div>
 
-
-
         </article>
     
 
+        <Seo />
     
 
 
