@@ -91,14 +91,12 @@
     color: rgb(0, 0, 0);
     font-family: poppins;
 }
-.d-div{
+.d-div-2{
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    align-content: flex-start;
-    text-align: left;
-    width: 73%;
-    margin-top: 10px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 
 }
 

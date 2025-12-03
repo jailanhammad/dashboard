@@ -5,6 +5,8 @@ import noti from '../Assets/notification.svg';
 import message from '../Assets/message.svg';
 import pp from '../Assets/pp.svg';
 import deletee from '../Assets/delete.svg';
+import edit from '../Assets/edit.svg';
+import add from '../Assets/addblack.svg';
 
 
 const CategoryHeader = () => {
@@ -59,7 +61,7 @@ const CategoryHeader = () => {
 <article className='rows-header'>
 
 
-<div className='d-div'>
+<div className='d-div-2'>
 <h1 className='dashboard-text'>Categories, Tags Management</h1>
 </div>
 
@@ -68,15 +70,15 @@ const CategoryHeader = () => {
 <div className='small-div'>
 
 <button className='button-add'>
-See Details
-<img src={deletee} className='upload' />
+Add
+<img src={add} className='upload' />
 
 </button>
 
 
 <button className='button-add'>
 Edit
-<img src={deletee} className='upload' />
+<img src={edit} className='upload' />
 
 </button>
 
