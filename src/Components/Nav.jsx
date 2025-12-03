@@ -66,9 +66,10 @@ const Nav = () => {
                 <div className='dashboard-div'>
 
                 <img src={categories} className='icon' />
-                <h1 className='text'>Categories</h1>
-
-                </div>
+                <Link class="text" to="/Categories">
+                Categories
+                </Link>
+                        </div>
 
 
                 <div className='dashboard-div'>

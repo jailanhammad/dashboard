@@ -1,17 +1,17 @@
 import React from 'react';
-import './ProjectNav.css';
+import './CategoryNav.css';
 
 import logoicon from '../Assets/logo.svg';
 import white from '../Assets/white-d.svg';
 import homeicon from '../Assets/home.svg';
 import dropdown from '../Assets/dropdown.svg';
-import file from '../Assets/file.svg';
-import categories from '../Assets/categories.svg';
+import cat from '../Assets/catblack.svg';
+import manage from '../Assets/manage.svg';
 import settings from '../Assets/setting.svg';
 import logout from '../Assets/logout.svg';
 import { Link } from 'react-router-dom';
 
-const ProjectNav = () => {
+const CategoryNav = () => {
     return ( 
         <>
   
@@ -46,24 +46,28 @@ const ProjectNav = () => {
 
         </div>
 
-        <div className='dashboard-div-white'>
+        <div className='dashboard-div-3'>
 
 
-        <img src={file} className='file' />
+        <img src={manage} className='file' />
 
-        <Link class="text-black" to="/ProjectManagement">
+        <Link class="text" to="/ProjectManagement">
         Project Management
         </Link>
 
         </div>
 
-        <div className='dashboard-div'>
+        <div className='dashboard-div-white'>
 
-        <img src={categories} className='icon' />
-        <Link class="text" to="/Categories">
+        <div className='cat-div'>
+        <img src={cat} className='icon' />
+
+        <Link class="text-black" to="/Categories">
         Categories
         </Link>
 
+        </div>
+    
         </div>
 
 
@@ -95,4 +99,4 @@ const ProjectNav = () => {
      );
 }
  
-export default ProjectNav;
+export default CategoryNav;
