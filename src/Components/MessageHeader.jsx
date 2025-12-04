@@ -1,5 +1,5 @@
 import React from 'react';
-import './CategoryHeader.css';
+import './MessageHeader.css';
 import search from '../Assets/search.svg';
 import noti from '../Assets/notification.svg';
 import message from '../Assets/message.svg';
@@ -56,7 +56,7 @@ const CategoryHeader = (props) => {
 
 
 <div className='d-div-2'>
-<h1 className='dashboard-text'>{props.titlee}</h1>
+<h1 className='dashboard-text'>Messages</h1>
 </div>
 
 <div className='three'>
@@ -64,7 +64,7 @@ const CategoryHeader = (props) => {
 <div className='small-div'>
 
 
-<button className='button-add-2'>
+<button className='button-add-3'>
 Archive & Delete
 <img src={deletee} className='upload' />
 
