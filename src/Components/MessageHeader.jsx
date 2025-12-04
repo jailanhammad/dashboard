@@ -1,13 +1,14 @@
 import React from 'react';
-import './Header.css';
+import './CategoryHeader.css';
 import search from '../Assets/search.svg';
 import noti from '../Assets/notification.svg';
 import message from '../Assets/message.svg';
 import pp from '../Assets/pp.svg';
+import deletee from '../Assets/delete.svg';
 import Messageicon from './Messageicon';
 
 
-const Header = () => {
+const CategoryHeader = (props) => {
     return ( 
         <>
         
@@ -50,9 +51,32 @@ const Header = () => {
 <hr className='line' />
 </div>
 
-<div className='d-div'>
-<h1 className='dashboard-text'>Dashboard Overview</h1>
+
+<article className='rows-header'>
+
+
+<div className='d-div-2'>
+<h1 className='dashboard-text'>{props.titlee}</h1>
 </div>
+
+<div className='three'>
+
+<div className='small-div'>
+
+
+<button className='button-add-2'>
+Archive & Delete
+<img src={deletee} className='upload' />
+
+</button>
+
+
+</div>
+    
+</div>
+
+</article>
+
 
 
 
@@ -63,4 +87,4 @@ const Header = () => {
      );
 }
  
-export default Header;
+export default CategoryHeader;

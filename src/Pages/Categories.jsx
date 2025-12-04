@@ -16,7 +16,7 @@ const Categories = () => {
 
         <article className='container-4'>
 
-        <CategoryHeader />
+        <CategoryHeader titlee="Categories, Tags Management" />
         <CategoryTable category="Category" />
         <CategoryTable category="Tags" />
         <CategoryTable category="Pages" />

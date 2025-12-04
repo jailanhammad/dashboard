@@ -7,9 +7,10 @@ import pp from '../Assets/pp.svg';
 import deletee from '../Assets/delete.svg';
 import edit from '../Assets/edit.svg';
 import add from '../Assets/addblack.svg';
+import Messageicon from './Messageicon';
 
 
-const CategoryHeader = () => {
+const CategoryHeader = (props) => {
     return ( 
         <>
         
@@ -26,17 +27,12 @@ const CategoryHeader = () => {
 
 <div className='icons-div'>
 
-<div className='notification-div'>
 
-<img src={noti} className='icon' />
+<Messageicon  icon={noti}/>
 
-</div>
 
-<div className='notification-div'>
 
-<img src={message} className='icon' />
-
-</div>
+<Messageicon  icon={message}/>
 
 
 </div>
@@ -62,7 +58,7 @@ const CategoryHeader = () => {
 
 
 <div className='d-div-2'>
-<h1 className='dashboard-text'>Categories, Tags Management</h1>
+<h1 className='dashboard-text'>{props.titlee}</h1>
 </div>
 
 <div className='three'>

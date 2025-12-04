@@ -5,6 +5,7 @@ import search from '../Assets/search.svg';
 import noti from '../Assets/notification.svg';
 import message from '../Assets/message.svg';
 import pp from '../Assets/pp.svg';
+import Messageicon from './Messageicon';
 
 
 const ProjectHeader = () => {
@@ -24,17 +25,12 @@ const ProjectHeader = () => {
 
 <div className='icons-div'>
 
-<div className='notification-div'>
 
-<img src={noti} className='icon' />
+<Messageicon  icon={noti}/>
 
-</div>
 
-<div className='notification-div'>
 
-<img src={message} className='icon' />
-
-</div>
+<Messageicon  icon={message}/>
 
 
 </div>

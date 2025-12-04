@@ -3,6 +3,7 @@ import Login from './Pages/Secret';
 import Home from './Pages/Home';
 import ProjectManagement from './Pages/ProjectManagement';
 import Categories from './Pages/Categories';
+import Message from './Pages/Message';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
@@ -26,6 +27,7 @@ const RoutingApp = () => {
 <Route path='/Home' element={<Home />} />
 <Route path='/Projectmanagement' element={<ProjectManagement />} />
 <Route path='/Categories' element={<Categories />} />
+<Route path='/Message' element={<Message />} />
 
 
 </Routes>
