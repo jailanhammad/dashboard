@@ -54,7 +54,7 @@ const CategoryHeader = (props) => {
 </div>
 
 
-<article className='rows-header'>
+<article className='rows-header-11'>
 
 
 <div className='d-div-2'>

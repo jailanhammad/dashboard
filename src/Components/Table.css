@@ -1,7 +1,7 @@
 .big-table{
     background-color: #E7E7E7;
     width: 600px;
-    height: 300px;
+    height: 800px;
     border-radius: 10px;
     margin-top: 10px;
     display: flex;
@@ -86,7 +86,7 @@
     justify-content: center;
     align-content: center;
     align-items: center;
-    gap: 100px;
+    gap: 80px;
 
 }
 .div-2{
@@ -95,7 +95,7 @@
     justify-content: center;
     align-items: center;
     align-content: center;
-    width: 550px;
+    width: 575px;
     height: 25px;
     border: #8a8a8a 1px solid;
     border-radius: 5px;

@@ -1,0 +1,72 @@
+.row-data{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px;
+}
+.checkbox{
+    width: 16px;
+    height: 16px;
+    border: #000000 0.5px solid;
+    background-color: #B3B3B3;
+    border-radius: 3px;
+
+}
+.all-data{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 550px;
+    height: 30px;
+    border: #000000 0.5px solid;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+.name-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.star{
+    width: 20px;
+    height: 20px;
+}
+.sara{
+    font-size: 10px;
+    font-weight: 600;
+    color: #000000;
+    font-family: poppins;
+}
+.text-message{
+    font-size: 10px;
+    font-weight: 400;
+    color: #000000;
+    font-family: poppins;
+}
+.eye-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.eyee{
+    width: 16px;
+    height: 16px; 
+}
+.view-message{
+    font-size: 8px;
+    font-weight: 400;
+    color: #000000;
+    font-family: poppins;
+}

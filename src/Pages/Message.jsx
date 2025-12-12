@@ -3,6 +3,7 @@ import './Message.css';
 import Nav from '../Components/Nav';
 import MessageHeader from '../Components/MessageHeader';
 import Table from '../Components/Table';
+import Seo from '../Components/Seo';
 
 const Message = () => {
     return ( 
@@ -16,6 +17,8 @@ const Message = () => {
 
         <MessageHeader />
         <Table />
+
+        <Seo />
 
 
         </article>

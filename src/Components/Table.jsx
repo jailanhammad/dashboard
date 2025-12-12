@@ -69,8 +69,22 @@ const Table = () => {
 <div className='div-3'>
 
 <Data />
-
-
+<Data />
+<Data />
+<Data />
+<Data />
+<Data />
+<Data />
+<Data />
+<Data />
+<Data />
+<Data />
+<Data />
+<Data />
+<Data />
+<Data />
+<Data />
+<Data />
 
 
 </div>
