@@ -1,9 +1,8 @@
 import React from 'react';
 import './Message.css';
 import Nav from '../Components/Nav';
-import CategoryHeader from '../Components/CategoryHeader';
 import MessageHeader from '../Components/MessageHeader';
-
+import Table from '../Components/Table';
 
 const Message = () => {
     return ( 
@@ -16,6 +15,7 @@ const Message = () => {
         <article className='container-5'>
 
         <MessageHeader />
+        <Table />
 
 
         </article>

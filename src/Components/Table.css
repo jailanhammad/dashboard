@@ -1,0 +1,116 @@
+.big-table{
+    background-color: #E7E7E7;
+    width: 600px;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.div-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 250px;
+    margin-top: 5px;
+}
+.overall-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.over-text{
+    font-size: 12px;
+    font-weight: 600;
+    color: #000000;
+    font-family: poppins;
+}
+.number-text{
+    font-size: 10px;
+    font-weight: 400;
+    color: #000000;
+    font-family: poppins;
+}
+.three-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.all-div{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 50px;
+    height: 20px;
+    background-color: #000000;
+    border-radius: 5px;
+}
+.all-text{
+    font-size: 10px;
+    font-weight: 600;
+    color: #ffffff;
+    font-family: poppins;
+}
+
+.star-div{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 50px;
+    height: 20px;
+    border-radius: 5px;
+    border: #000000 1px solid;
+}
+.star-text{
+    font-size: 10px;
+    font-weight: 600;
+    color: #000000;
+    font-family: poppins;
+}
+.filters-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 100px;
+
+}
+.div-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 550px;
+    height: 25px;
+    border: #8a8a8a 1px solid;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.head-2{
+    font-size: 10px;
+    font-weight: 500;
+    color: black;
+    font-family: poppins;
+}
+.div-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
