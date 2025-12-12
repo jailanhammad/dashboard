@@ -44,12 +44,22 @@ const Nav = () => {
                 </div>
 
 
+                <div class="menu-item">
+
                 <div className='dashboard-div'>
 
                 <img src={homeicon} className='icon' />
                 <h1 className='text'>Static Pages</h1>
                 <img src={dropdown} className='icon-small' />
 
+                </div>
+
+                <ul class="dropdown-menu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Work</a></li>
+                        <li><a href="#">Contact</a></li>
+                </ul>
                 </div>
 
                 <div className='dashboard-div'>
@@ -72,6 +82,10 @@ const Nav = () => {
                         </div>
 
 
+         
+
+                <div class="menu-item">
+
                 <div className='dashboard-div'>
 
                 <img src={settings} className='icon' />
@@ -79,19 +93,28 @@ const Nav = () => {
                 <img src={dropdown} className='icon-small' />
 
                 </div>
+                <ul class="dropdown-menu">
+                        <li><a href="#">Profile</a></li>
+                        <li><a href="#">Security</a></li>
+                        <li><a href="#">Messages</a></li>
+                </ul>
+                </div>
 
 
 
-        </section>
 
-        <div className='logout-div'>
+                </section>
 
-        <img src={logout} className='icon' />
-        <h1 className='text'>Logout</h1>
+                <div className='logout-div'>
 
-        </div>
+                <img src={logout} className='icon' />
+                <Link class="text" to="/Secret">
+                Logout
+                </Link>
 
-        </article>
+                </div>
+
+                </article>
         
 
 

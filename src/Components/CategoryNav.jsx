@@ -38,6 +38,8 @@ const CategoryNav = () => {
         </div>
 
 
+        <div class="menu-item">
+
         <div className='dashboard-div'>
 
         <img src={homeicon} className='icon' />
@@ -45,6 +47,15 @@ const CategoryNav = () => {
         <img src={dropdown} className='icon-small' />
 
         </div>
+
+        <ul class="dropdown-menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Contact</a></li>
+        </ul>
+        </div>
+
 
         <div className='dashboard-div-3'>
 
@@ -71,12 +82,20 @@ const CategoryNav = () => {
         </div>
 
 
+        <div class="menu-item">
+
         <div className='dashboard-div'>
 
         <img src={settings} className='icon' />
         <h1 className='text'>Settings</h1>
         <img src={dropdown} className='icon-small' />
 
+        </div>
+        <ul class="dropdown-menu">
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Security</a></li>
+                <li><a href="#">Messages</a></li>
+        </ul>
         </div>
 
 
@@ -86,7 +105,9 @@ const CategoryNav = () => {
 <div className='logout-div'>
 
 <img src={logout} className='icon' />
-<h1 className='text'>Logout</h1>
+<Link class="text" to="/Secret">
+Logout
+</Link>
 
 </div>
 
