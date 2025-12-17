@@ -1,0 +1,41 @@
+.details-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 320px;
+
+}
+.three{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.small-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 5px;
+}
+.button-add{
+    background-color: #FFC5D8;
+    width: 90px;
+    height: 20px;
+    font-size: 8px;
+    font-weight: 600;
+    color: black;
+    font-family: poppins;
+    border-radius: 5px;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 5px;
+}

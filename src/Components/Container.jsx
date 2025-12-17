@@ -6,6 +6,7 @@ import up from '../Assets/upload.svg';
 import deletee from '../Assets/delete.svg';
 import img from '../Assets/img.svg';
 
+import { Link } from "react-router-dom";
 
 const Container = (props) => {
     return (
@@ -45,9 +46,12 @@ const Container = (props) => {
 </div>
 
 <div className='small-div'>
-<button className='button'>
+<button className='button' >
+<Link  to="/Projectdetails">
 See Details
+</Link>
 </button>
+
 
 <img src={deletee} className='upload' />
 
