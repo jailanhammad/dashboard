@@ -9,6 +9,13 @@
     z-index: 1000;
 
 }
+.dropmenu{
+    font-size: 10px;
+    font-weight: 300;
+    color: white;
+    font-family: poppins;
+    text-decoration: none;
+}
 .logo-div{
     display: flex;
     flex-direction: row;
@@ -176,7 +183,9 @@
     color: #b3b3b3;
     padding: 8px 16px;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 10px;
+    font-weight: 300;
+    font-family: poppins;
 }
 
 .dropdown-menu li a:hover {

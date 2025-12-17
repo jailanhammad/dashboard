@@ -10,7 +10,7 @@ const Short = (props) => {
 
             <p className='page-title'>{props.pagetitle}</p>
 
-    <div className='fill-box'>
+    <div className='fill-box-00'>
 
             <p className='text-box'>{props.uploadtext}</p>
 

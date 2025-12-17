@@ -9,7 +9,7 @@ import deletee from '../Assets/delete.svg';
 import add from '../Assets/addblack.svg';
 
 
-const Pageheader = () => {
+const Pageheader = (props) => {
     return ( 
         <>
         
@@ -58,7 +58,7 @@ const Pageheader = () => {
 
 
 <div className='d-div'>
-<h1 className='dashboard-text'>Project Details</h1>
+<h1 className='dashboard-text'>{props.hometitle}</h1>
 </div>
 
 

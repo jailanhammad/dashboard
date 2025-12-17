@@ -55,7 +55,10 @@ const Nav = () => {
                 </div>
 
                 <ul class="dropdown-menu">
-                        <li><a href="#">Home</a></li>
+
+                <Link className='dropmenu' to="/Profile">
+                <li><a href="#">Home</a></li>
+                </Link>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Work</a></li>
                         <li><a href="#">Contact</a></li>

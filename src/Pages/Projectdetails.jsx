@@ -23,7 +23,7 @@ const Projectdetails = () => {
 
         <article className='container-14'>
 
-        <Pageheader />
+        <Pageheader hometitle="Project Details" />
 
 
         <article className='first-box-22'>

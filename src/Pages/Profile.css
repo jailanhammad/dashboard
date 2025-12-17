@@ -1,0 +1,62 @@
+.perosnal-div{
+    background-color: #E7E7E7;
+    width: 620px;
+    height: 490px;
+    border-radius: 10px;
+    margin-top: 10px;
+    gap: 20px;
+}
+.personal-text{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    font-family: poppins;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+.pic-div-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 20px;
+    margin-right: 300px;
+    margin-top: 30px;
+}
+.profilepic{
+    width: 100px;
+    height: 100px;
+}
+.r-div-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+.pp-text{
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    font-family: poppins;
+}
+.rowww-44{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 70px;
+    margin-top: 20px;
+}
+.all-c{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+
+}
