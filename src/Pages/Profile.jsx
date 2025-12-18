@@ -80,36 +80,80 @@ const Profile = () => {
 
         <article className='aboutt-div'>
 
-<h1 className='personal-text'>About Me</h1>
+        <h1 className='personal-text'>About Me</h1>
+
+
+
+        <article className='all-c'>
+
+
+
+        <article className='rowww-44'>
+
+        <Short pagetitle="Title" uploadtext="About Me" uploadimg={edit}  />
+        <Short pagetitle="Heading" uploadtext="Hi, I’m Jailan, a 21-year-old Digital... " uploadimg={edit}  />
+
+        </article>
+
+        <article className='rowww-44'>
+
+        <Short pagetitle="Text" uploadtext="a Digital Art and Design student..." uploadimg={edit}  />
+        <InsightsFill insights="Insights" hundret="100+" uploadimg={edit} projecttext="Project Complete" />
+
+        </article>
+
+
+
+        <article className='rowww-44'>
+
+        <InsightsFill insights="Insights" hundret="4+" uploadimg={edit} projecttext="Years of Experience" />
+        <InsightsFill insights="Insights" hundret="3+" uploadimg={edit} projecttext="Internship" />
+
+        </article>
+
+        <Savebutton />
+
+        </article>
+
+
+
+        </article>
+
+
+        <article className='what-i-do-div'>
+
+<h1 className='personal-text'>What I Do</h1>
 
 
 
 <article className='all-c'>
 
-
+<Long pagetitle="Title" uploadtext="My services" uploadimg={edit}  />
 
 <article className='rowww-44'>
 
-<Short pagetitle="Title" uploadtext="About Me" uploadimg={edit}  />
-<Short pagetitle="Heading" uploadtext="Hi, I’m Jailan, a 21-year-old Digital... " uploadimg={edit}  />
+<Short pagetitle="Project" uploadtext="UI/UX" uploadimg={edit}  />
+<Short pagetitle="Project" uploadtext="Programming" uploadimg={edit}  />
 
 </article>
 
 <article className='rowww-44'>
 
-<Short pagetitle="Text" uploadtext="a Digital Art and Design student..." uploadimg={edit}  />
-<InsightsFill insights="Insights" hundret="100+" uploadimg={edit} projecttext="Project Complete" />
+<Short pagetitle="Project" uploadtext="Graphic design" uploadimg={edit}  />
+<Short pagetitle="Project" uploadtext="Photography" uploadimg={edit}  />
 
 </article>
-
-
 
 <article className='rowww-44'>
 
-<InsightsFill insights="Insights" hundret="4+" uploadimg={edit} projecttext="Years of Experience" />
-<InsightsFill insights="Insights" hundret="3+" uploadimg={edit} projecttext="Internship" />
+<Short pagetitle="Project" uploadtext="Branding" uploadimg={edit}  />
+<Short pagetitle="Project" uploadtext="3D Modeling" uploadimg={edit}  />
 
 </article>
+
+<Long pagetitle="Title" uploadtext="My Skills" uploadimg={edit}  />
+
+<h1 className='projectt-text'>Project</h1>
 
 <Savebutton />
 
@@ -118,8 +162,6 @@ const Profile = () => {
 
 
 </article>
-
-
 
 
 
