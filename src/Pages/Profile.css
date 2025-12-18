@@ -60,3 +60,11 @@
     gap: 10px;
 
 }
+.aboutt-div{
+    background-color: #E7E7E7;
+    width: 620px;
+    height: 390px;
+    border-radius: 10px;
+    margin-top: 20px;
+    gap: 20px;
+}

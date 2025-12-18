@@ -9,6 +9,7 @@ import upload from '../Assets/upload.svg';
 import edit from '../Assets/edit.svg';
 import Long from '../Components/LongFill';
 import Savebutton from '../Components/Savebutton';
+import InsightsFill from '../Components/InsightsFill';
 
 const Profile = () => {
     return ( 
@@ -46,25 +47,69 @@ const Profile = () => {
 
         </div>
 
+        <article className='all-c'>
+
+
+
+        <article className='rowww-44'>
+
+        <Short pagetitle="Heading" uploadtext="Hi, I’m " uploadimg={edit}  />
+        <Short pagetitle="Sub Heading" uploadtext="Jailan Hammad" uploadimg={edit}  />
+
+        </article>
+
+        <article className='rowww-44'>
+
+        <Short pagetitle="Text" uploadtext="a Digital Art and Design student..." uploadimg={edit}  />
+        <Short pagetitle="Button" uploadtext="Explore My Work" uploadimg={edit}  />
+
+        </article>
+
+        <Long pagetitle="Menu" uploadtext="UI / UX" uploadimg={edit}  />
+
+        <Savebutton />
+
+        </article>
+
+
+
+        </article>
+
+
+
+
+        <article className='aboutt-div'>
+
+<h1 className='personal-text'>About Me</h1>
+
+
+
 <article className='all-c'>
 
 
 
 <article className='rowww-44'>
 
-<Short pagetitle="Heading" uploadtext="Hi, I’m " uploadimg={edit}  />
-<Short pagetitle="Sub Heading" uploadtext="Jailan Hammad" uploadimg={edit}  />
+<Short pagetitle="Title" uploadtext="About Me" uploadimg={edit}  />
+<Short pagetitle="Heading" uploadtext="Hi, I’m Jailan, a 21-year-old Digital... " uploadimg={edit}  />
 
 </article>
 
 <article className='rowww-44'>
 
 <Short pagetitle="Text" uploadtext="a Digital Art and Design student..." uploadimg={edit}  />
-<Short pagetitle="Button" uploadtext="Explore My Work" uploadimg={edit}  />
+<InsightsFill insights="Insights" hundret="100+" uploadimg={edit} projecttext="Project Complete" />
 
 </article>
 
-<Long pagetitle="Menu" uploadtext="UI / UX" uploadimg={edit}  />
+
+
+<article className='rowww-44'>
+
+<InsightsFill insights="Insights" hundret="4+" uploadimg={edit} projecttext="Years of Experience" />
+<InsightsFill insights="Insights" hundret="3+" uploadimg={edit} projecttext="Internship" />
+
+</article>
 
 <Savebutton />
 
@@ -72,7 +117,11 @@ const Profile = () => {
 
 
 
-        </article>
+</article>
+
+
+
+
 
         </article>
         
