@@ -11,6 +11,7 @@ import Long from '../Components/LongFill';
 import Savebutton from '../Components/Savebutton';
 import InsightsFill from '../Components/InsightsFill';
 import ProjectFill from '../Components/ProjectFill';
+import Uploadcomp from '../Components/Uploadcomp';
 
 const Profile = () => {
     return ( 
@@ -26,7 +27,6 @@ const Profile = () => {
         <article className='container-14'>
 
         <Pageheader hometitle="Home Page" />
-
 
 
         <article className='perosnal-div'>
@@ -75,8 +75,6 @@ const Profile = () => {
 
 
         </article>
-
-
 
 
         <article className='aboutt-div'>
@@ -231,7 +229,81 @@ const Profile = () => {
 
 
 
+        </article>
+
+
+
+        <article className='contact-me-div'>
+
+<h1 className='personal-text'>Contact Me</h1>
+
+
+
+<article className='all-c'>
+
+<article className='rowww-44'>
+
+<Short pagetitle="Title" uploadtext="Contact Me" uploadimg={edit}  />
+<Short pagetitle="Heading" uploadtext="Info" uploadimg={edit}  />
+
 </article>
+
+<article className='rowww-44'>
+
+<Short pagetitle="Phone Number" uploadtext="+02 01000444401" uploadimg={edit}  />
+<Short pagetitle="Email" uploadtext="Jailanhammad@gmail.com" uploadimg={edit}  />
+
+</article>
+
+<article className='rowww-46'>
+
+<div className='margin-left-1'>
+<Uploadcomp />
+</div>
+
+<div className='margin-left-2'>
+<Uploadcomp />
+</div>
+
+
+</article>
+
+<article className='rowww-47'>
+
+<Short pagetitle="Location" uploadtext="Masr El Gdida" uploadimg={edit}  />
+
+<div className='co'>
+<p className='share-icon'>Share Icon</p>
+<Uploadbutton />
+</div>
+</article>
+
+
+
+
+<h1 className='sociall-text'>Social Links</h1>
+
+
+
+<Savebutton />
+
+</article>
+
+
+
+        </article>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
