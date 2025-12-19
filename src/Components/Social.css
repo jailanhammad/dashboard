@@ -1,10 +1,11 @@
-
-.project-div{
+.social-row{
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    align-content: flex-start;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 50px;
+
 }
 .page-title{
     font-size: 12px;
@@ -12,13 +13,13 @@
     color: black;
     font-family: poppins;
 }
-.fill-box-00{
+.fill-box-long-2{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     align-content: center; 
-    width: 260px;
+    width:390px;
     height: 25px;
     background-color: white;
     border-radius: 5px;

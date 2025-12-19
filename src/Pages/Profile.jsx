@@ -12,6 +12,8 @@ import Savebutton from '../Components/Savebutton';
 import InsightsFill from '../Components/InsightsFill';
 import ProjectFill from '../Components/ProjectFill';
 import Uploadcomp from '../Components/Uploadcomp';
+import Social from '../Components/Social';
+import Seo from '../Components/Seo';
 
 const Profile = () => {
     return ( 
@@ -276,16 +278,29 @@ const Profile = () => {
 <p className='share-icon'>Share Icon</p>
 <Uploadbutton />
 </div>
+
 </article>
 
-
+<div className='ro'>
+<p className='icon-t'>Icon</p>
+<Uploadbutton />
+</div>
 
 
 <h1 className='sociall-text'>Social Links</h1>
 
 
+<article className='all-c'>
+
+
+<Social uploadtext="https://www.facebook.com/" uploadimg={edit} />
+<Social uploadtext="https://www.instagram.com/" uploadimg={edit} />
+<Social uploadtext="https://www.whatsapp.com/" uploadimg={edit} />
 
 <Savebutton />
+
+</article>
+
 
 </article>
 
@@ -294,7 +309,7 @@ const Profile = () => {
         </article>
 
 
-
+<Seo />
 
 
 
