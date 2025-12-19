@@ -6,8 +6,9 @@ import Categories from './Pages/Categories';
 import Message from './Pages/Message';
 import Secret from './Pages/Secret';
 import Projectdetails from './Pages/Projectdetails';
-import Profile
- from './Pages/Profile';
+import Profile from './Pages/Profile';
+import Admin from './Pages/Admin';
+
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 
@@ -33,6 +34,7 @@ const RoutingApp = () => {
 <Route path='/Message' element={<Message />} />
 <Route path='/Projectdetails' element={<Projectdetails />} />
 <Route path='/Profile' element={<Profile />} />
+<Route path='/Admin' element={<Admin />} />
 
 <Route path='/Secret' element={<Secret />} />
 

@@ -92,9 +92,15 @@ const ProjectNav = () => {
 
         </div>
         <ul class="dropdown-menu">
-                <li><a href="#">Profile</a></li>
-                <li><a href="#">Security</a></li>
-                <li><a href="#">Messages</a></li>
+        <Link className='dropmenu' to="/Profile">
+        <li><a href="#">Profile</a></li>
+        </Link>
+        <Link className='dropmenu' to="/Admin">
+        <li><a href="#">Security</a></li>
+        </Link>       
+        <Link className='dropmenu' to="/Message">
+        <li><a href="#">Messages</a></li>
+        </Link>
         </ul>
         </div>
 
