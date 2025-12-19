@@ -5,11 +5,12 @@ import Pageheader from '../Components/Pageheader';
 import Uploadbutton from '../Components/Uploadbutton';
 import profilepic from '../Assets/profilepic.svg';
 import Short from '../Components/ShortFill';
-import upload from '../Assets/upload.svg';
+import uploadimg from '../Assets/upload.svg';
 import edit from '../Assets/edit.svg';
 import Long from '../Components/LongFill';
 import Savebutton from '../Components/Savebutton';
 import InsightsFill from '../Components/InsightsFill';
+import ProjectFill from '../Components/ProjectFill';
 
 const Profile = () => {
     return ( 
@@ -154,6 +155,75 @@ const Profile = () => {
 <Long pagetitle="Title" uploadtext="My Skills" uploadimg={edit}  />
 
 <h1 className='projectt-text'>Project</h1>
+
+
+<article className='rowww-45'>
+
+<ProjectFill uploadtext="Illustrator" uploadimg={edit} />
+<ProjectFill uploadtext="80%" uploadimg={edit} />
+<Uploadbutton />
+
+</article>
+
+
+<article className='rowww-45'>
+
+<ProjectFill uploadtext="Figma" uploadimg={edit} />
+<ProjectFill uploadtext="90%" uploadimg={edit} />
+<Uploadbutton />
+
+</article>
+
+
+<article className='rowww-45'>
+
+<ProjectFill uploadtext="After effects" uploadimg={edit} />
+<ProjectFill uploadtext="75%" uploadimg={edit} />
+<Uploadbutton />
+
+</article>
+
+<article className='rowww-45'>
+
+<ProjectFill uploadtext="Blender" uploadimg={edit} />
+<ProjectFill uploadtext="70%" uploadimg={edit} />
+<Uploadbutton />
+
+</article>
+
+
+<article className='rowww-45'>
+
+<ProjectFill uploadtext="Photoshop" uploadimg={edit} />
+<ProjectFill uploadtext="60%" uploadimg={edit} />
+<Uploadbutton />
+
+</article>
+
+<article className='rowww-45'>
+
+<ProjectFill uploadtext="Premier" uploadimg={edit} />
+<ProjectFill uploadtext="55%" uploadimg={edit} />
+<Uploadbutton />
+
+</article>
+
+<article className='rowww-45'>
+
+<ProjectFill uploadtext="VS Code" uploadimg={edit} />
+<ProjectFill uploadtext="95%" uploadimg={edit} />
+<Uploadbutton />
+
+</article>
+
+
+<article className='rowww-45'>
+
+<ProjectFill uploadtext="Aero" uploadimg={edit} />
+<ProjectFill uploadtext="75%" uploadimg={edit} />
+<Uploadbutton />
+
+</article>
 
 <Savebutton />
 
