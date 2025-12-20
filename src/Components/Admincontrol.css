@@ -1,0 +1,58 @@
+.admin-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    width: 600px;
+    height: 40px;
+    background-color: white;
+    border: #BEBEBE 1px solid; 
+    border-radius: 5px;
+}
+.admin-row-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+    margin-left: 20px;
+}
+.admin-row-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+    margin-right: 20px;
+}
+.adminsvg{
+    width: 35px;
+    height: 35px;
+}
+.adminname{
+    font-size: 12px;
+    font-weight: 600;
+    color: black;
+    font-family: poppins;
+}
+.status{
+    font-size: 10px;
+    font-weight: 400;
+    color: #696969;
+    font-family: poppins;
+}
+.last{
+    font-size: 10px;
+    font-weight: 400;
+    color: black;
+    font-family: poppins;
+}
+.days{
+    font-size: 10px;
+    font-weight: 400;
+    color: #696969;
+    font-family: poppins;
+}

@@ -1,0 +1,13 @@
+.admin-coloumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #E7E7E7;
+    width: 630px;
+    height: 320px;
+    border-radius: 10px;
+    margin-top: 10px;
+    gap: 10px;
+}

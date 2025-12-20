@@ -68,14 +68,14 @@ const Pageheader = (props) => {
 <div className='small-div'>
 
 <button className='button-add'>
-Add
+<p>{props.add}</p>
 <img src={add} className='upload' />
 
 </button>
 
 
 <button className='button-add'>
-Delete
+<p>{props.remove}</p>
 <img src={deletee} className='upload' />
 
 </button>

@@ -28,7 +28,7 @@ const Profile = () => {
 
         <article className='container-14'>
 
-        <Pageheader hometitle="Home Page" />
+        <Pageheader hometitle="Home Page"  add="Add" remove="Delete"  />
 
 
         <article className='perosnal-div'>
