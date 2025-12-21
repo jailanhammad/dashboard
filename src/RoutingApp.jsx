@@ -8,6 +8,7 @@ import Secret from './Pages/Secret';
 import Projectdetails from './Pages/Projectdetails';
 import Profile from './Pages/Profile';
 import Admin from './Pages/Admin';
+import AboutPage from './Pages/AboutPage';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
@@ -35,6 +36,7 @@ const RoutingApp = () => {
 <Route path='/Projectdetails' element={<Projectdetails />} />
 <Route path='/Profile' element={<Profile />} />
 <Route path='/Admin' element={<Admin />} />
+<Route path='/AboutPage' element={<AboutPage />} />
 
 <Route path='/Secret' element={<Secret />} />
 

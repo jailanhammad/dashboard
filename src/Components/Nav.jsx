@@ -59,7 +59,10 @@ const Nav = () => {
                 <Link className='dropmenu' to="/Profile">
                 <li><a href="#">Home</a></li>
                 </Link>
-                        <li><a href="#">About</a></li>
+
+                <Link className='dropmenu' to="/AboutPage">
+                <li><a href="#">About</a></li>
+                </Link>
                         <li><a href="#">Work</a></li>
                         <li><a href="#">Contact</a></li>
                         <li><a href="#">Add Page</a></li>
