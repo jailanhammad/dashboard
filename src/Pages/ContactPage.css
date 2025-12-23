@@ -1,0 +1,51 @@
+.contact-me-div{
+    background-color: #E7E7E7;
+    width: 620px;
+    height: 1260px;
+    border-radius: 10px;
+    margin-top: 10px;
+    gap: 20px;
+}
+.rowww-400{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 180px;
+    margin-top: 10px;
+}
+.icon-coloumn-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    margin-right: 110px;
+}
+.formm-text{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    font-family: poppins;
+    margin-right: 550px;
+    margin-top: 10px;
+
+}
+.rowww-405{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 70px;
+    /* margin-top: 10px; */
+}
+.message-box-text{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    font-family: poppins;
+    margin-right: 495px;
+    margin-top: 10px;
+}

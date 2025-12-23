@@ -54,10 +54,19 @@ const ProjectNav = () => {
         </Link>
         <Link className='dropmenu' to="/AboutPage">
         <li><a href="#">About</a></li>
+        </Link>
+        <Link className='dropmenu' to="/AboutPage">
+        <li><a href="#">Work</a></li>
+        </Link>
+
+        <Link className='dropmenu' to="/ContactPage">
+        <li><a href="#">Contact</a></li>
+        </Link>
+
+        <Link className='dropmenu' to="/AboutPage">
+        <li><a href="#">Add Page</a></li>
         </Link>                
-                <li><a href="#">Work</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Add Page</a></li>
+       
 
         </ul>
         </div>
