@@ -1,0 +1,67 @@
+.section-01{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+.section-text-01{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    font-family: poppins;
+}
+.big-section-01{
+    background-color: #C3C3C3;
+    width: 590px;
+    height: 480px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.project-pic{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+}
+.rowww-405{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 70px;
+}
+.vd{
+    width: 80px;
+    height: 170px;
+}
+.rowww-55{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.icon-coloumn-5{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    margin-right: 420px;
+}
+.icon-text-01{
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
+.sv-btn{
+    margin-right: 20px;
+}

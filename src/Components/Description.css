@@ -1,0 +1,37 @@
+.project-div-009{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+.page-title{
+    font-size: 12px;
+    font-weight: 500;
+    color: black;
+    font-family: poppins;
+}
+.fill-box-des{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: center;
+    width:570px;
+    height: 125px;
+    background-color: white;
+    border-radius: 5px;
+}
+.text-box{
+    font-size: 10px;
+    font-weight: 400;
+    color: black;
+    font-family: poppins;
+    margin-left: 10px;
+}
+.upload-001{
+    width: 12px;
+    height: 12px;
+    margin-right: 10px;
+    margin-top: 10px;
+}

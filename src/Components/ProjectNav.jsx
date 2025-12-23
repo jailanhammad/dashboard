@@ -55,7 +55,7 @@ const ProjectNav = () => {
         <Link className='dropmenu' to="/AboutPage">
         <li><a href="#">About</a></li>
         </Link>
-        <Link className='dropmenu' to="/AboutPage">
+        <Link className='dropmenu' to="/WorkPage">
         <li><a href="#">Work</a></li>
         </Link>
 
@@ -63,7 +63,7 @@ const ProjectNav = () => {
         <li><a href="#">Contact</a></li>
         </Link>
 
-        <Link className='dropmenu' to="/AboutPage">
+        <Link className='dropmenu' to="/Projectmanagement">
         <li><a href="#">Add Page</a></li>
         </Link>                
        

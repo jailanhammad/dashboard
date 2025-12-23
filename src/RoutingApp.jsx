@@ -10,6 +10,7 @@ import Profile from './Pages/Profile';
 import Admin from './Pages/Admin';
 import AboutPage from './Pages/AboutPage';
 import ContactPage from './Pages/ContactPage';
+import WorkPage from './Pages/WorkPage';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
@@ -39,6 +40,7 @@ const RoutingApp = () => {
 <Route path='/Admin' element={<Admin />} />
 <Route path='/AboutPage' element={<AboutPage />} />
 <Route path='/ContactPage' element={<ContactPage />} />
+<Route path='/WorkPage' element={<WorkPage />} />
 
 <Route path='/Secret' element={<Secret />} />
 
