@@ -6,12 +6,11 @@ const CreateItem = () => {
 
     const [loading, setLoading] = useState(true);
     const [title, setTitle] = useState("");
-    const [description, setDescription] = useState("");
-    const [creationdate, setCreationdate] = useState("");
+ 
 
     
         async function addItem(){
-         const res = await supabase.from("items").insert({"title":title,  "description":description, "creationdate":creationdate })
+         const res = await supabase.from("items").insert({"title":title})
          alert("Done");
 
        }
