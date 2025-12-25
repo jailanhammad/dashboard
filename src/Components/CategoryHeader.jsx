@@ -8,6 +8,7 @@ import deletee from '../Assets/delete.svg';
 import edit from '../Assets/edit.svg';
 import add from '../Assets/addblack.svg';
 import Messageicon from './Messageicon';
+import { Link } from 'react-router-dom';
 
 
 const CategoryHeader = (props) => {
@@ -65,11 +66,17 @@ const CategoryHeader = (props) => {
 
 <div className='small-div'>
 
+
+<Link  className='button-add' to="/Create">
 <button className='button-add'>
 Add
 <img src={add} className='upload' />
 
 </button>
+</Link>
+
+
+
 
 
 <button className='button-add'>

@@ -1,5 +1,6 @@
-import React from 'react';
 import './ProjectManagement.css';
+import React, {useState} from 'react';
+import { supabase } from '../supabase';
 
 import ProjectNav from '../Components/ProjectNav';
 import ProjectHeader from '../Components/ProjectHeader';
@@ -10,8 +11,25 @@ import filters from '../Assets/filters.svg';
 import Container from '../Components/Container';
 
 import add from '../Assets/add.svg';
+import { Link } from 'react-router-dom';
 
 const ProjectManagement = () => {
+
+
+
+
+    const [loading, setLoading] = useState(true);
+    const [title, setTitle] = useState("");
+
+    
+        async function addItem(){
+         const res = await supabase.from("items").insert({"title":title})
+         alert("Done");
+
+       }
+
+       
+       
     return ( 
         <>
         
@@ -69,7 +87,13 @@ const ProjectManagement = () => {
 
         <div className='add-div'>
 
-        <p className='add-text'>Add Project</p>
+<Link className='add-text' to="/Create">
+
+<p className='add-text'>
+            Add Project
+        </p>
+</Link>
+  
         <img src={add} className='add' />
 
         </div>

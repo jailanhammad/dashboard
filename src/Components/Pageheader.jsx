@@ -7,6 +7,7 @@ import pp from '../Assets/pp.svg';
 import Messageicon from './Messageicon';
 import deletee from '../Assets/delete.svg';
 import add from '../Assets/addblack.svg';
+import { Link } from 'react-router-dom';
 
 
 const Pageheader = (props) => {
@@ -67,11 +68,15 @@ const Pageheader = (props) => {
 
 <div className='small-div'>
 
+
+<Link  className='button-add' to="/Create">
 <button className='button-add'>
 <p>{props.add}</p>
 <img src={add} className='upload' />
 
 </button>
+</Link>
+
 
 
 <button className='button-add'>

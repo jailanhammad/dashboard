@@ -13,6 +13,7 @@ import ContactPage from './Pages/ContactPage';
 import WorkPage from './Pages/WorkPage';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import CreateItem from './CRUD_Pages/CreateItem';
 
 
 
@@ -44,6 +45,7 @@ const RoutingApp = () => {
 
 <Route path='/Secret' element={<Secret />} />
 
+<Route path='/Create' element={<CreateItem />} />
 
 
 </Routes>
