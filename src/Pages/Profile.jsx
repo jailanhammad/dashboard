@@ -291,7 +291,7 @@ const Profile = () => {
 
 
 
-        <article className='contact-me-div'>
+        <article className='contact-me-div-22'>
 
 <h1 className='personal-text'>Contact Me</h1>
 
