@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from "react";
 import './MessageHeader.css';
 import search from '../Assets/search.svg';
 import noti from '../Assets/notification.svg';
@@ -6,9 +6,30 @@ import message from '../Assets/message.svg';
 import pp from '../Assets/pp.svg';
 import deletee from '../Assets/delete.svg';
 import Messageicon from './Messageicon';
+import { supabase } from '../supabase';
 
 
 const CategoryHeader = (props) => {
+
+    const [title, setTitle] = useState("");
+
+    async function deleteItems() {
+        const confirmDelete = window.confirm("Do you want to delete this item?");
+        if (!confirmDelete) return;
+    
+        const { error } = await supabase
+          .from("items")
+          .delete()
+          .eq("title", title);
+    
+        if (error) {
+          console.error(error);
+          alert("Delete failed");
+        } else {
+          alert("Item deleted");
+        }
+      }
+    
     return ( 
         <>
         
@@ -64,7 +85,7 @@ const CategoryHeader = (props) => {
 <div className='small-div'>
 
 
-<button className='button-add-3'>
+<button className='button-add-3' onClick={deleteItems}>
 Archive & Delete
 <img src={deletee} className='upload' />
 

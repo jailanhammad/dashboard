@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from "react";
 import './Seo.css';
 
 import down from '../Assets/dropp.svg';
@@ -6,10 +6,31 @@ import edit from '../Assets/edit.svg';
 import up from '../Assets/upload.svg';
 import editwhite from '../Assets/edit-white.svg';
 import deletew from '../Assets/deletew.svg';
+import { supabase } from '../supabase';
 
 
 
 const Seo = () => {
+
+                const [title, setTitle] = useState("");
+            
+                async function deleteItems() {
+                    const confirmDelete = window.confirm("Do you want to delete this item?");
+                    if (!confirmDelete) return;
+                
+                    const { error } = await supabase
+                      .from("items")
+                      .delete()
+                      .eq("title", title);
+                
+                    if (error) {
+                      console.error(error);
+                      alert("Delete failed");
+                    } else {
+                      alert("Item deleted");
+                    }
+                  }
+                
     return (
         <>
         
@@ -91,7 +112,7 @@ const Seo = () => {
 
             <button className='edit-button-2'>
 
-            <p className='button-text-1'>Delete SEO  </p>
+            <p className='button-text-1' onClick={deleteItems}>Delete SEO  </p>
             <img src={deletew} className='edit-icon-2' />
 
             </button>

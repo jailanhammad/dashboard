@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from "react";
 import './Pageheader.css';
 import search from '../Assets/search.svg';
 import noti from '../Assets/notification.svg';
@@ -8,9 +8,32 @@ import Messageicon from './Messageicon';
 import deletee from '../Assets/delete.svg';
 import add from '../Assets/addblack.svg';
 import { Link } from 'react-router-dom';
+import { supabase } from '../supabase';
+
 
 
 const Pageheader = (props) => {
+
+    const [title, setTitle] = useState("");
+
+    async function deleteItems() {
+        const confirmDelete = window.confirm("Do you want to delete this item?");
+        if (!confirmDelete) return;
+    
+        const { error } = await supabase
+          .from("items")
+          .delete()
+          .eq("title", title);
+    
+        if (error) {
+          console.error(error);
+          alert("Delete failed");
+        } else {
+          alert("Item deleted");
+        }
+      }
+    
+
     return ( 
         <>
         
@@ -77,9 +100,7 @@ const Pageheader = (props) => {
 </button>
 </Link>
 
-
-
-<button className='button-add'>
+<button className='button-add' onClick={deleteItems}>
 <p>{props.remove}</p>
 <img src={deletee} className='upload' />
 
