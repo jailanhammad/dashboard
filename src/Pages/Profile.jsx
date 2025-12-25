@@ -1,6 +1,7 @@
-import React from 'react';
-import './Profile.css';
+import React, {useEffect, useState} from 'react';
+import { useRef } from 'react';import './Profile.css';
 import Nav from '../Components/Nav';
+import { supabase } from '../supabase';
 import Pageheader from '../Components/Pageheader';
 import Uploadbutton from '../Components/Uploadbutton';
 import profilepic from '../Assets/profilepic.svg';
@@ -15,7 +16,47 @@ import Uploadcomp from '../Components/Uploadcomp';
 import Social from '../Components/Social';
 import Seo from '../Components/Seo';
 
+
+
 const Profile = () => {
+
+
+        const containerRef = useRef(null);
+
+        const [loading, setLoading] = useState(true);
+        const [Personalidentity, setPersonalidentity] = useState([
+    
+    
+            {
+    
+                    id:"",
+                    title:"",
+                    coverimg:"",
+                    image:[],
+                    description:"",
+                    details:"",
+                    category:[]
+                    
+                   } 
+    
+    
+    ]) ;
+    
+    
+    useEffect(()=>{
+    
+     async function getAllPersonalidentityAPI(){
+      const res = await supabase.from("Personalidentity").select("*");
+      setPersonalidentity(res.data);
+      // console.log(res.data);
+        setLoading(false);
+    }
+    getAllPersonalidentityAPI();
+    
+    },[]);
+    
+    if (loading) return <p>Loading...</p>;
+    
     return ( 
         <>
         
@@ -28,9 +69,12 @@ const Profile = () => {
 
         <article className='container-14'>
 
-        <Pageheader hometitle="Home Page"  add="Add" remove="Delete"  />
 
 
+
+        <Pageheader hometitle="Home Page" add="Add" remove="Delete"  />
+
+   
         <article className='perosnal-div'>
 
         <h1 className='personal-text'>Personal & Identity</h1>
@@ -53,23 +97,35 @@ const Profile = () => {
         <article className='all-c'>
 
 
+{Personalidentity
+  .filter(Personalidentity => Personalidentity.id === 1)
+  .map(Personalidentity => (
 
         <article className='rowww-44'>
 
-        <Short pagetitle="Heading" uploadtext="Hi, I’m " uploadimg={edit}  />
-        <Short pagetitle="Sub Heading" uploadtext="Jailan Hammad" uploadimg={edit}  />
+        <Short pagetitle="Heading" uploadtext={Personalidentity.title} uploadimg={edit}  />
+        <Short pagetitle="Sub Heading" uploadtext={Personalidentity.subtitle} uploadimg={edit}  />
 
         </article>
+   ) 
+   ) 
+   }
 
+{Personalidentity
+  .filter(Personalidentity => Personalidentity.id === 1)
+  .map(Personalidentity => (
         <article className='rowww-44'>
 
         <Short pagetitle="Text" uploadtext="a Digital Art and Design student..." uploadimg={edit}  />
-        <Short pagetitle="Button" uploadtext="Explore My Work" uploadimg={edit}  />
+        <Short pagetitle="Button" uploadtext={Personalidentity.button} uploadimg={edit}  />
 
         </article>
-
-        <Long pagetitle="Menu" uploadtext="UI / UX" uploadimg={edit}  />
-
+   
+   ) 
+   ) 
+   }
+     <Long pagetitle="Menu" uploadtext="UI / UX" uploadimg={edit}  />
+          
         <Savebutton />
 
         </article>
